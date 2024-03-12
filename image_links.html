@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1, h2, h3 {
+            color: #333;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section id="home">
+        <h2>HOME</h2>
+        <p>Welcome to our Website! Explore the world through these amazing images.</p>
+        <a href="https://example.com/technology" target="_blank">
+            <img src="tech.jpg" alt="Technology Image">
+        </a>
+    </section>
+
+    <section id="gallery">
+        <h2>LIBRARY</h2>
+        <div class="gallery">
+            <a href="https://example.com/nature1" target="_blank">
+                <img src="library.jpg" alt="Nature Image 1">
+            </a>
+            <a href="https://example.com/nature2" target="_blank">
+                <img src="library2.jpg" alt="Nature Image 2">
+           
+        </div>
+    </section>
+
+    <section id="menu">
+        <h3>MENU</h3>
+        <ul>
+            <li>
+                <P>BBQ</P>
+                <a href="https://example.com/food1" target="_blank">
+                    <img src="bbq.jpg" alt="Food Image 1"> 
+                </a>
+            </li>
+            <li>
+                <P>RICE</P>
+                <a href="https://example.com/food2" target="_blank">
+                    <img src="rice.jpg" alt="Food Image 2"> 
+                </a>
+            </li>
+        </ul>
+    </section>
+
+</body>
+
+</html>
